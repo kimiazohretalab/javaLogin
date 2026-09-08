@@ -12,7 +12,7 @@
             org.hibernate.jpa.HibernatePersistenceProvider
         </provider>
 
-        <class>org.example.login.entity.User</class>
+        <class>org.example.javalogin.entity.User</class>
 
         <properties>
 

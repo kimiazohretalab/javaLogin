@@ -80,11 +80,8 @@ public class RegisterServlet extends HttpServlet {
 
         EntityManager entityManager =
                 JPAUtil.createEntityManager();
-
         try {
-
             entityManager.getTransaction().begin();
-
             UserService userService =
                     new UserService(entityManager);
 
